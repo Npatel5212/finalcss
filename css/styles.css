@@ -1,0 +1,162 @@
+/* Name: Neha Patel, Student Number: 8975212 */
+
+header {
+    text-align: center;
+    padding: 20px 0;
+    background: linear-gradient(to right, #ff7e5f, #feb47b);
+    color: white;
+}
+
+footer {
+    text-align: center;
+    font-size: 0.8rem;
+    padding: 1rem;
+    background: linear-gradient(to right, #feb47b, #ff7e5f);
+    color: #ffffff;
+    clear: both;
+    border-radius: 5px; 
+}
+
+body {
+    font-family: Arial, sans-serif;
+    margin: 0;
+    padding: 0;
+    background-color: #b7d1e7;
+}
+
+.main-section {
+    margin-bottom: 2rem;
+}
+
+h2 {
+    font-variant: small-caps;
+    font-style: italic;
+    font-weight: bold;
+    font-family: 'Times New Roman', Times, serif;
+    color: #333333;
+    text-align: center;
+    margin-bottom: 1rem;
+}
+
+blockquote {
+    font-variant: normal;
+    font-style: italic;
+    font-weight: normal;
+    font-family: 'Georgia', serif;
+    color: #555555;
+    border-left: 5px solid #3f0e0e;
+    padding-left: 1rem;
+    margin-left: 1rem;
+}
+
+figure {
+    background-color: #f9f9f9;
+    border: 10px solid #561313;
+    border-radius: 10px;
+    padding: 1rem;
+    margin: 1rem 0;
+    text-align: center;
+}
+
+figure img {
+    border-radius: 10px;
+    max-width: 100%;
+    height: auto;
+}
+
+figcaption {
+    font-variant: small-caps;
+    font-style: normal;
+    font-weight: bold;
+    font-family: 'Arial', sans-serif;
+    color: #0c0404;
+    margin-top: 0.5rem;
+}
+
+q {
+    font-variant: normal;
+    font-style: italic;
+    font-weight: normal;
+    font-family: 'Georgia', serif;
+    color: #090404;
+    text-align: left;
+    background-color: #f9f9f9;
+    border: 2px solid #54947b;
+    border-radius: 10px;
+    padding: 1rem;
+    box-shadow: 3px 3px 5px #aaaaaa;
+}
+
+Video iframe {
+    border: 50px solid #790f0f;
+    border-radius: 10px;
+    width: 100%;
+    height: auto;
+}
+
+aside {
+    width: 100%;
+    padding: 1rem;
+    background-color: #b7efd0;
+    border: 10px solid #3a1616;
+    border-radius: 5px;
+}
+
+aside h2 {
+    font-variant: small-caps;
+    color: #300b0b;
+    text-align: center;
+}
+
+aside ul {
+    list-style: none;
+    padding: 0;
+}
+
+aside ul li {
+    line-height: 2rem;
+}
+
+aside ul li a {
+    text-decoration: none;
+    color: #0066cc;
+}
+
+aside ul li a:hover {
+    color: #930a81;
+}
+
+form {
+    margin-top: 2rem;
+}
+
+form label {
+    display: block;
+    font-weight: bold;
+    margin-bottom: 0.5rem;
+}
+
+form input[type="text"],
+form input[type="number"],
+form textarea {
+    width: 100%;
+    padding: 0.5rem;
+    margin-bottom: 1rem;
+    border: 1px solid #cccccc;
+    border-radius: 5px;
+}
+
+form input[type="submit"],
+form input[type="reset"] {
+    padding: 0.5rem 1rem;
+    border: none;
+    border-radius: 5px;
+    background-color: #472d43;
+    color: #ffffff;
+    cursor: pointer;
+}
+
+form input[type="submit"]:hover,
+form input[type="reset"]:hover {
+    background-color: #feb47b;
+}
